@@ -4,7 +4,7 @@ html {
    }
    p {
     font-size: 1.6rem;
-    line-height: 1.5;
+    line-height: 2;
    }
    h1 {
     font-family: billabong, 'billabongregular';
@@ -32,19 +32,14 @@ html {
     max-width: 1000px;
     margin: 0 auto;
    }
-   .figure {
-    flex-basis: calc(33.333% - 4rem);
+   .figure, .wide-figure {
     border: 1px solid #d3d3d3;
-    padding: 2rem;
+    padding: 2rem 2rem 0 2rem;
     flex-grow: 1;
     margin: 0 2rem 2rem 2rem;
    }
-   .wide-figure {
-    flex-basis: 1;
-    border: 1px solid #d3d3d3;
-    padding: 2rem;
-    flex-grow: 1;
-    margin: 0 2rem 2rem 2rem;
+   .figure {
+    flex-basis: calc(33.333% - 4rem);
    }
    .figure .single-photo {
     flex-basis: calc(33.333% - 4rem);
