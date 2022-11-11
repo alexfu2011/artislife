@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 function Tags(props){
     return <div className='tags'>{ props.tags.map((tag, index) => 
         <span className='tag'>
-            <a href={'/tag/'+tag}><i className='fa fa-hashtag' />{tag}</a>
+            <a href={'/tag/'+tag}>#{tag}</a>
         </span>) }
     </div>
 }

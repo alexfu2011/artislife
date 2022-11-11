@@ -232,6 +232,10 @@ button:focus,
     display: inline;
 }
 
+.tag {
+    margin-left: 0.5rem;
+}
+
 .tag i {
     color: gray;
     margin: 0 0.5rem;
