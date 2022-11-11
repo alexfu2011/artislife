@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Info from './Info';
 import Tags from './Tags';
 import Like from './Like';
 
